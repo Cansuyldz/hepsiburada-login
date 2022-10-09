@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hepsiburada</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+
+<body><label class="header">hepsiburada</label>
+    <div class="content">
+        <div class="tab">
+            <button type="submit" class="tablinks" onclick="openCity(event, 'giris')"> Giriş Yap</button>
+            <button type="submit" class="tablinks" onclick="openCity(event, 'üye')">Üye ol</button></div>
+
+
+        <div id="giris" class="tabcontent">
+        </div>
+
+        <div id="üye" class="tabcontent">
+
+        </div>
+
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
+            }
+        </script>
+        <div class="content-header "> E-posta ile üye ol </div>
+        <div class="input-box ">
+            <input type="text " maxlength="15 " placeholder="ad">
+            <input type="text " maxlength="20 " placeholder="Soyad "></div>
+        <div class="input-box ">
+            <input type="email" maxlength="25 " placeholder="E-posta adresi "></div>
+        <div class="input-box ">
+
+            <input type="password" id="passwd " name="passwd " maxlength="8 " placeholder="Parola ">
+
+
+
+        </div>
+
+        <div class="checkbox">
+            <div></div>
+            <input type="checkbox"> Kampanyaları E-posta ile elektronik ileti almak istiyorum.</div>
+        <button type="button ">Üye Ol</button>
+    </div>
+
+    <div class="footer">
+        <label class="footer-logo ">Sosyal hesap ile giriş yap </label>
+        <div class="footer-write ">
+            <p>
+                Blacktear'a şifresiz giriş yapabilmek için Google, Facebook veya Twitter hesabınızı bağlayabilirsiniz.
+            </p>
+
+        </div>
+        <div class="footer ">
+            <div class="footer-button ">
+                <a href="https://accounts.google.com/ " target="_blank " title="google "> <img src="g.jpg " width="50px " height="50px " /></a>
+
+
+                <a href="https://www.facebook.com/login.php?next=https%3A%2F%2Fwww " target="_blank " title="facebook "> <img src="f.jpg " width="50px " height="50px " /></a>
+
+                <a href="https://twitter.com/intent/tweet?url=" target=" _blank " tittle="twitter "> <img src="t.jpg " width="50px " height="50px " /> </a>
+            </div>
+
+        </div>
+    </div>
+    <div class="footer-header "> <img src="logoo.png "> Güvenli Alışveriş</div>
+    <div class="sub-information ">
+        © Copyright 1998 - 2020 D-Market Elektronik Hizmetler Tic. A.Ş.
+    </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+</html>

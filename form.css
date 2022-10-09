@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, SFProText, Helvetica Neue, sans-serif;
+    padding-top: 35px;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    color: #484848;
+}
+
+body .header {
+    font-weight: bolder;
+    color: #ff6000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.content {
+    width: 400px;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 72px;
+    border: 1px solid #e5e5e5;
+    border-radius: none;
+    margin: 0 auto;
+    color: #534848;
+    margin-top: 20px;
+}
+
+.content .tab {
+    display: flex;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-radius: 15px;
+}
+
+.content .tab button[type="sumbit"] {
+    float: left;
+    transition: 0.5s;
+    font-size: 17px;
+    margin-bottom: 25px;
+    padding-bottom: 35px;
+    border-radius: 15px;
+}
+
+.content .tab button:hover {
+    background-color: #ff6000;
+    color: black;
+    border-radius: 6px;
+}
+
+.content .tab button.active {
+    background-color: #ff6000;
+    color: white;
+    border-radius: 6px;
+}
+
+.content .tabcontent {
+    display: none;
+    padding-top: 6px;
+    padding-left: 11px;
+    border-top: none;
+    width: 400px;
+}
+
+.content input {
+    background-color: #eeeeee;
+    width: 250px;
+    height: 50px;
+    text-indent: 20px;
+    margin: 7px;
+    text-decoration-color: lavenderblush;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+
+.content input[type="email"] {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 50px;
+    text-indent: 20px;
+    margin: 7px;
+    text-decoration-color: lavenderblush;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+
+.content input[type="password"] {
+    background-color: whitesmoke;
+    width: 400px;
+    height: 50px;
+    text-indent: 20px;
+    margin: 7px;
+    text-decoration-color: lavenderblush;
+    border-radius: 5px;
+    border: 1px solid whitesmoke;
+    outline: none;
+}
+
+.content input:hover {
+    border: 1px solid gray;
+}
+
+.content .input-box {
+    display: flex;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.content button {
+    background-color: #cccccc;
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: auto;
+    margin-top: 20px;
+    color: gray;
+    font-weight: bold;
+}
+
+.content button:hover {
+    background-color: #ff6000;
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+
+.content input[type="checkbox"] {
+    width: 17px;
+    height: 17px;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.content .checkbox {
+    display: flex;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 550px;
+    height: auto;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #e5e5e5;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.footer-logo {
+    font-size: 20px;
+    color: #484848;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.footer-write {
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer-button {
+    padding-bottom: 20px;
+    border: none;
+    outline: none;
+    border-color: #cccccc;
+}
+
+.footer-button img {
+    border-radius: 8px;
+    margin-right: 5px;
+    border-color: none;
+}
+
+.footer-header {
+    color: rgb(135, 196, 135);
+    font-size: 12px;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.footer-header img {
+    width: 10px;
+    height: 10px;
+    padding-top: 5px;
+}
+
+.sub-information {
+    font-size: 12px;
+    color: grey;
+    margin: auto;
+    width: 550px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
